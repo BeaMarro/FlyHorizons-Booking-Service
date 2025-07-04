@@ -20,31 +20,6 @@ This microservice provides the core functionality for flight bookings, seat allo
 
 ---
 
-## 📁 Project Structure
-booking-service/
-├── authentication/ # Auth logic
-├── converter/ # Data conversion helpers
-├── enums/ # Enumerations (e.g., booking status)
-│ ├── booking.go
-│ ├── passenger.go
-│ ├── payment.go
-│ ├── payment_request.go
-│ ├── seat.go
-│ └── user_deleted_event.go
-├── entity/ # Entity definitions and domain models
-│ ├── base_repository.go
-│ ├── booking_repository.go
-│ └── seat_repository.go
-├── errors/ # Custom error definitions
-├── interfaces/ # Interface definitions
-├── booking_service.go # Core booking service logic
-├── payment_event_listener.go # Listens for payment-related events
-├── seat_service.go # Manages seat logic
-└── user_event_listener.go # Reacts to user deletion or updates
-
-
----
-
 ## 📦 Features
 
 - 🔐 **Authentication Integration**
